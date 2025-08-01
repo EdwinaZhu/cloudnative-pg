@@ -45,6 +45,7 @@ var _ = Describe("Database validation", func() {
 			},
 		}
 	}
+
 	createFDWSpec := func(name string) apiv1.FDWSpec {
 		return apiv1.FDWSpec{
 			DatabaseObjectSpec: apiv1.DatabaseObjectSpec{
